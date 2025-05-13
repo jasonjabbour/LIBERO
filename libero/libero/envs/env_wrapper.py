@@ -21,7 +21,7 @@ class ControlEnv:
         has_renderer=False,
         has_offscreen_renderer=True,
         render_camera="frontview",
-        render_collision_mesh=False,
+        render_collision_mesh=True,
         render_visual_mesh=True,
         render_gpu_device_id=-1,
         control_freq=20,
